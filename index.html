@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carousel</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style2.css" />
+</head>
+
+<body>
+  <div id="main" class="container-fluid">
+     
+    <div id="navbarrow"class="row">
+      <div class="col-sm-2 pl-sm-2">
+        <img id="one" src="new gym logo.jpg" />
+        <div class="col-sm-1">
+          <p>armaan fitness</p>
+        </div>
+      </div>
+
+      <div class="col-md-7">
+        <a href="http://">home</a>
+        <a href="http://">about</a>
+        <a href="http://">fitness calculator</a>
+        <a href="http://">contact</a>
+      </div>
+      <div class="col-md-3">
+        <button type="button" class="btn btn-warning">
+          <a href="https://www.gmail.com">Email-us</a></button>
+        <button type="button" class="btn btn-warning">
+          <a href="tel:+917011950614">Call us now</a></button>
+      </div>
+    </div>
+    
+        <div class="row ">
+            <div class="col">
+                <div id="mycarousel"class="carousel slide " data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mycarousel" data-slide-to="1" ></li>
+                        <li data-target="#mycarousel" data-slide-to="2" ></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active " data-interval="2000">
+                           <img src="image1gym.jpg" class="d-block w-100">
+                           <div class="carousel-caption d-none d-md-block">
+                            <h5>OUR AIM  IS TO BULID FIT INDIA</h5>
+                            <p>join the gym and contribute to the nation.</p>
+                          </div>
+                           </div>
+                           
+                            
+                              
+                              
+                        <div class="carousel-item" data-interval="2000">
+                            <img src="image2gym.jpg"class="d-block w-100" > 
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>OUR AIM  IS TO BULID FIT INDIA</h5>
+                              <p>join the gym and contribute to the nation.</p>
+                            </div>
+                         </div>
+                         <div class="carousel-item" data-interval="2000">
+                            <img src="image3gym.png"class="d-block w-100"> 
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>OUR AIM  IS TO BULID FIT INDIA</h5>
+                              <p>join the gym and contribute to the nation.</p>
+                            </div>
+                         </div>
+                    </div>
+                    <a href="#mycarousel" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#mycarousel" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+          <div class="ticker">
+            <div class="title"><h5>important annoucement</h5></div>
+            <div class="news">
+              <marquee>
+                <p>
+                <b<h6> <span class="badge bg-secondary">New</span></h6>opening soon in faridabad , delhi , mumbai </b>
+              </marquee>
+            </div>
+          </div>
+          <div  id="ga"class="row py-5">
+            <div id="ga1"class="col-md-12 ">
+             GALLERY
+            </div>
+          </div>
+          <div class="row py-5">
+            <div class="col-md-3  ">
+              <img class="gym"src="gymphoto1.jpg">
+              <div class="content"><h2>john deo<br><span>creative designer</span></h2></div>
+             
+              
+              
+      
+            </div>
+            <div class="col-md-3 offset-md-1 ">
+              <img class="gym"src="gymphoto2.jpg">
+              <div class="content"><h2>Cross fit<br><span>branded dumbells</span></h2></div>
+            </div>
+            <div class="col-md-3 offset-md-1 ">
+              <img class="gym"src="gymphoto4.jpg">
+              <div class="content"><h3>fit india<br><span>diff.machines for each part</span></h3></div>
+            </div>
+          </div>
+          <div class="row py-5">
+            <div class="col-md-3  ">
+              <img class="gym"src="gymphoto5.jpg">
+              <div class="content"><h2>fit india<br><span>fully air condition.</span></h2></div>
+            </div>
+            <div class="col-md-3 offset-md-1 ">
+              <img class="gym"src="gymphoto6.jpg">   
+              <div class="content"><h2>gold lion<br><span>expertise in training</span></h2></div>
+            </div>
+            <div class="col-md-3 offset-md-1 ">
+              <img class="gym"src="gymphoto7.jpg">
+              <div class="content"><h2>fit india<br><span>dumbells upto 200 kg</span></h2></div>
+            </div>
+          </div>
+          <div class="row py-5">
+            <div class="col-md-3  ">
+              <img class="gym"src="gymphoto8.jpg">
+              <div class="content"><h2>fit india <br><span>room for chill</span></h2></div>
+            </div>
+            <div class="col-md-3 offset-md-1 ">
+              <img class="gym"src="gymphoto9.jpg">
+              <div class="content"><h2>fit india<br><span>yoga room for women</span></h2></div>
+            </div>
+            <div class="col-md-3 offset-md-1 ">
+              <img class="gym"src="gymphoto10.jpg">
+              <div class="content"><h2>fit india<br><span>find different you</span></h2></div>
+            </div>
+          </div>
+          <div id="footerrow"class="row py-5">
+ 
+
+            <div class="col-md-4">
+              <h2 id="footerh2">Quick links</h2><br>
+             <a href="https://">home</a><br>
+             <a href="https://">gallery</a><br>
+             <a href="https://">about us</a><br>
+             <a href="https://">contact us</a><br>
+          
+                
+              
+            </div>
+            <div class="col-md-4">
+             <h2 id="footerh2">
+               News letter
+             </h2><br>
+             <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">
+                  <span id="emailspan">we'll never share your email with anyone else.</span></small>
+              </div>
+              
+              <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+                
+              
+            </div>
+            <div class="col-md-4">
+             
+               <h2 id="footerh2">Social media handles</h2><br> 
+               <i class="fab fa-facebook">
+                 <a href="https://www.facebook.com">facebook</a></i>&nbsp;&nbsp;&nbsp;
+          
+              <i class="fab fa-youtube">
+                <a href="https://www.youtube.com">youtube</a></i>&nbsp;&nbsp;&nbsp;
+          
+                <i class="fab fa-instagram">
+                  <a href="https://www.instagram.com">instagram</a></i>&nbsp;&nbsp;&nbsp;
+                  <i class="fab fa-twitter">
+                    <a href="https://www.twitter.com">twitter</a></i>
+              
+            </div>
+            
+          </div>
+          <div class="row py-3">
+            <div  id="footergallery"class="col-lg-12">
+              <h1 id="lasth1"><span>GALLERY </span></h1>
+              <div id="owldiv"class="owl-carousel owl-theme">
+                <div class="item"><img src="gymphoto1.jpg"></div>
+                <div class="item"><img src="gymphoto2.jpg"></div>
+                <div class="item"><img src="gymphoto4.jpg"></div>
+                <div class="item"><img src="gymphoto5.jpg"></div>
+                <div class="item"><img src="gymphoto6.jpg"></div>
+                <div class="item"><img src="gymphoto7.jpg"></div>
+                <div class="item"><img src="gymphoto8.jpg"></div>
+                <div class="item"><img src="gymphoto9.jpg"></div>
+                <div class="item"><img src="gymphoto10.jpg"></div>
+                <div class="item"><img src="gymphoto6.jpg"></div>
+                <div class="item"><img src="gymphoto4.jpg"></div>
+                <div class="item"><img src="gymphoto8.jpg"></div>
+              </div>
+            </div>
+            
+          
+          
+          
+           
+          
+              </div>
+              <div class="row">
+                <div class="col-md-3 offset-md-1">
+                  <h5>@ 2021 fit india.in. All Rights reserved</h5>
+                </div>
+                <div class="col-md-3 offset-md-1">
+                  <i id="playstoreicon"class="fab fa-google-play">
+                    <a id="anchortag"href="https://googleplaystore.com">google play store</a>
+          
+                  </i>
+                </div>
+                <div class="col-md-3 offset-md-1">
+                  <h5>Terms&Conditions|Privacy Policy</h5>
+                </div>
+              </div>
+          </div>
+          <script src="https://kit.fontawesome.com/b989ac5947.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> 
+    <script>$('.owl-carousel').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:false,
+      dots:false,
+      autoplay:true,
+      autoplayTimeout:1000,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:5
+          }
+      }
+  })
+  </script>
+          </body>
+</html>

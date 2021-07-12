@@ -1,0 +1,231 @@
+#mycarousel{
+    
+   
+  margin:0;
+  padding: 0;
+ 
+    
+}
+img{
+    width:100vw;
+    height:300px;
+}
+h2{
+    color:white;
+}
+#main{
+    background-color: rgb(180, 171, 171);
+
+background-size: cover;
+
+
+    background-attachment: fixed;
+   min-width:100%;
+  min-height:100%;
+
+}
+.col-md-7{
+    
+    display: inline-block;
+    text-transform: uppercase;
+    padding:2rem;
+    word-spacing: 50px;
+    color: white;
+    
+    
+    
+   
+    
+}
+
+#one{
+    width:3rem;
+    height:4rem;
+    display: inline-block;
+    padding-left: 17px;
+}
+.col-md-7 a{
+    color:white;
+   text-decoration: none;
+}
+.btn {
+    background-color:black;
+    color: white;
+    
+   margin-top:20px;
+   margin-right: 70px;
+   
+   
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.ticker {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 60px;
+    margin: 0 auto;
+}
+.news {
+    width: 76%;
+    background: rgb(88, 78, 78);
+    padding: 0 2%;
+}
+.title {
+    width: 20%;
+    text-align: center;
+    background: rgb(127, 218, 127);
+    position: relative;
+}
+.title:after {
+    position: absolute;
+    content: "";
+    right: -16%;
+    border-left: 20px solid greenyellow;
+    border-top: 33px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 33px solid transparent;
+    top: 0;
+}
+.title h5 {
+    font-size: 18px;
+    margin: 8% 0;
+    color: honeydew;
+    
+}
+p{
+    color:honeydew;
+}
+.news marquee {
+    font-size: 18px;
+}
+.gym{
+    width:400px;
+    height:50vh;
+    box-shadow: 1px 2px 3px orange;
+}
+#ga {
+    background-image: url("gym\ girl.jpg"); 
+    background-size: cover;
+    position: relative; 
+    height: 300px; 
+  }
+  
+  #ga1 {
+    background-color:royalblue;
+    color: black;
+    font-size: 5vw; 
+    font-weight: bold;
+    margin: 0 auto; 
+    padding: 10px;
+    width: 40%;
+    text-align: center; 
+    position: absolute; 
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    mix-blend-mode: screen; 
+  }
+  .gym{
+      transition:0.5s ease-in-out;
+      position: relative;
+  }
+  .gym:hover{
+     transform:translate(-100px,-140px);
+  }
+  .content{
+      margin-top:-100px;
+      margin-left:20px;
+   
+     
+  }
+  #form{
+    margin-left: 10px;
+   
+ }
+ 
+    
+ 
+ h3{
+     
+     color: white;
+ }
+ label{
+     color:white;
+ }
+  h1{
+     
+     color:white;
+     text-shadow: 1px 2px 13px orange;
+ }
+ img{
+     width:300px;
+     height:300px;
+ }
+ h4{
+     text-align: center;
+     color:aqua;
+     text-shadow: 1px 2px 3px orange;
+ }
+ 
+ .card{
+     background-color:gray;
+ }
+ .card-title{
+ text-shadow:1px 2px 3px orange;
+ }
+ .card-img-top{
+     box-shadow: 1px 2px 3px orangered;
+ }
+ #footerh2{
+     color:yellow;
+ }
+ #footerrow{
+     color:white;
+    
+     height:80vh;
+     min-width: 100%;
+ }
+ #l1{
+ color:blue;
+ }
+ #emailspan{
+     color:white;
+ }
+    #lasth1 {
+         width: 100%; 
+       text-align: center;
+         border-bottom: 3px solid white; 
+         line-height: 0.4em;
+        
+        
+      } 
+      #lasth1 span{
+          padding: 0 10px;
+          background: cyan;
+      }
+ #footergallery{
+     background-color: gray;
+ }  
+ #footerrow{
+     background-color: gray;
+     height:100vh;
+ }   
+ #owldiv{
+     padding-top:20px;
+ }
+ #anchortag{
+     color:white;
+ }
+ #playstoreicon{
+     color:green;
+ }
+ h5{
+     color:white;
+ }
+ 
